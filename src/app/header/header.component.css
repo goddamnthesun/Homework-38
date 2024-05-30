@@ -1,0 +1,10 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 20px;
+}
+.app-social-icons-header {
+  align-items: center;
+}

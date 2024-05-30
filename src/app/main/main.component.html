@@ -1,0 +1,15 @@
+<div class="main-container-container">
+  <div class="main-container">
+    <button
+      id="change"
+      (click)="showText()"
+      [style.background]="backgroundColor"
+    >
+      SHOW TEXT BUTTON
+    </button>
+    <div class="textbox">
+      <p>{{ displayText }}</p>
+    </div>
+  </div>
+  <app-bonus></app-bonus>
+</div>

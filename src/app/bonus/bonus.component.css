@@ -1,0 +1,24 @@
+.box {
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.box p {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  text-align: center;
+}
+.bonus-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bonus-container input {
+  max-width: 200px;
+  padding: 5px;
+}

@@ -1,0 +1,24 @@
+.main-container-container {
+  min-height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+button {
+  all: unset;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgb(216, 205, 205);
+  max-width: 190px;
+  text-align: center;
+}
+.textbox p {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.textbox {
+  margin-bottom: 100px;
+}
